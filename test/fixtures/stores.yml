@@ -1,15 +1,42 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+grater_price:
+  title: grater price
+  description:
+  price: 5.5
+  quality: 3
+  distance: 4
 
-one:
-   title: MyString
-  description: MyText
-  price: 9.99
-  quality: 9.99
-  distance: 1
+lesser_price:
+  title: lesser price
+  description:
+  price: 0.5
+  quality: 3
+  distance: 4
 
-two:
-   title: MyString
-  description: MyText
-  price: 9.99
-  quality: 9.99
-  distance: 1
+grater_quality:
+  title: grater quality
+  description:
+  price: 3
+  quality: 5.5
+  distance: 4
+
+lesser_quality:
+  title: lesser quality
+  description:
+  price: 3
+  quality: 0.5
+  distance: 4
+
+grater_distance:
+  title: grater distance
+  description:
+  price: 3
+  quality: 4
+  distance: 5.5
+
+lesser_distance:
+  title: lesser distance
+  description:
+  price: 3
+  quality: 4
+  distance: 0.5

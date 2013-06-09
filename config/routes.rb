@@ -1,7 +1,4 @@
 Restaurant::Application.routes.draw do
-  resources :testes
-
-
   resources :stores
 
 
