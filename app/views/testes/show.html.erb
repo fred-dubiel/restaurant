@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @testis.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @testis.description %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @testis.price %>
+</p>
+
+<p>
+  <b>Quality:</b>
+  <%= @testis.quality %>
+</p>
+
+<p>
+  <b>Distance:</b>
+  <%= @testis.distance %>
+</p>
+
+
+<%= link_to 'Edit', edit_testis_path(@testis) %> |
+<%= link_to 'Back', testes_path %>
